@@ -3,8 +3,14 @@
 A secure, private, and local **Retrieval-Augmented Generation (RAG)** application. This tool allows you to chat with your PDF documents using local LLMs via Ollama, ensuring that your data never leaves your machine.
 
 
-
-[Image of Retrieval Augmented Generation architecture diagram]
+```mermaid
+graph TD
+    A[User Question] --> B(Embedding Model)
+    B --> C[Vector Database]
+    C -->|Retrieve Relevant Chunks| D(Context)
+    D --> E[LLM Prompt]
+    A --> E
+    E --> F[LLM Response]
 
 
 ## 🚀 Features
