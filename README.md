@@ -32,5 +32,5 @@ A secure, private, and local **Retrieval-Augmented Generation (RAG)** applicatio
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/AbRather/Local-PDF-RAG-with-Ollama-LangChain.git]
+cd Local-PDF-RAG-with-Ollama-LangChain
