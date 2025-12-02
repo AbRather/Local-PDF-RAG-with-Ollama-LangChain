@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+ollama-venv/
+.env
+
+# Database (Do not upload the vector store)
+chroma_db/
+
+# System
+.DS_Store
